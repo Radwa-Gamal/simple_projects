@@ -1,0 +1,13 @@
+h1{ text-align:center; 
+	color:blue; 
+	font-family:verdana;
+	text-decoration:underline;
+	text-transform: uppercase;
+}
+h4 {color: red; 
+	font-family:verdana;}
+
+#button_equal{background-color: green;}
+#button_clear{background-color: blue;}
+p{border-style:solid;}
+
