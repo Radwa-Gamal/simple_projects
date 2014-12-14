@@ -22,7 +22,4 @@ for (var i=0; i < dom_table_tbody_tr_td.length ; i++)
 		dom_cal_btn.push(dom_table_tbody_tr_td[i].children);
 	}
 }
-
 console.log(dom_cal_btn.length);
-//console.log(dom_table_tbody);
-//console.log(dom_table_tbody_tr);
