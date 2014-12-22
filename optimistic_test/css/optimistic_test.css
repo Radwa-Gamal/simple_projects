@@ -1,8 +1,9 @@
-body {background-image: url("bk.png"); background-repeat: repeat;}
-h1 {color: white; text-align: center;}
-p {color: black;}
+body {background-image: url("images.jpeg"); background-repeat: repeat;}
+
+h1 {color: DarkOrchid ; text-align: center;}
+p {color: MediumVioletRed ;}
+
 #form{text-align: center;}
-#next_btn{  position: fixed;
-    right: 400px; }
-#back_btn{position: fixed;
-    left: 400px; }
+
+#next_btn{ background-image: url("Next.png"); position: fixed; right: 400px; height: 37px; width: 37px;}
+#back_btn{background-image: url("Back.png"); position: fixed; left: 400px; height: 37px; width: 37px;}
