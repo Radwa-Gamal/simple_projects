@@ -1,0 +1,8 @@
+body {background-image: url("bk.png"); background-repeat: repeat;}
+h1 {color: white; text-align: center;}
+p {color: black;}
+#form{text-align: center;}
+#next_btn{  position: fixed;
+    right: 400px; }
+#back_btn{position: fixed;
+    left: 400px; }
