@@ -7,3 +7,4 @@ p {color: MediumVioletRed ;}
 
 #next_btn{ background-image: url("Next.png"); position: fixed; right: 400px; height: 37px; width: 37px;}
 #back_btn{background-image: url("Back.png"); position: fixed; left: 400px; height: 37px; width: 37px;}
+#submit_btn{font-family: Impact, Charcoal, sans-serif}
