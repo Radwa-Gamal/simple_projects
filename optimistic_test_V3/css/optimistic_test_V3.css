@@ -6,3 +6,11 @@ p {color: MediumVioletRed ;}
 #intro{color: LightSeaGreen;}
 #next_btn{ background-image: url("Next.png"); height: 37px; width: 37px;}
 #submit_btn{font-family: Impact, Charcoal, sans-serif}
+
+.active {
+  display: block !important;
+}
+
+#questions div {
+  display: none;
+}
