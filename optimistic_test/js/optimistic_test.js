@@ -159,7 +159,7 @@ var fn_answer_checked = function()
 		dom_total_result = parseInt(dom_total_result)+0;
 		dom_answer_three.checked="";
 	}
-
+	
 };
 
 
