@@ -1,44 +1,71 @@
 .head {
-	text-align: center;
-	background-image: linear-gradient(to top, #deb887,#5f9ea0);
-	height: 100px;
+	text-align: left;
+	border-bottom: 3px solid #1de9b6;
+	height: 50px;
 	width: auto;
 	margin-bottom: 10px;
-	padding: 10px;
-	color: #f8f8ff;
-	text-shadow: 2px 2px 1px white;
+	padding:10px;
+	color: #1de9b6;
 	font-size: 20px ;
 
 }
 
 body {
 
-	background-image: radial-gradient(circle at top right,#ff7f50 ,#6495ed );
+	background: white;
 }
 
-.heading {
-	font-size: 15px;
+p {
+	font-size: 18px;
 	text-transform: uppercase;
-	text-align: left;
-	color: black;
-	border-width: thin;
-	border-bottom: 2px solid black;
-	padding-bottom: 3px;
+	padding-bottom: 5px;
+	color: #00bfa5;
 }
+
+table,th {
+
+	text-align: left;
+}
+
 
 .textBox {
 	text-align: left;
-	position: relative;
-	width: 50%;
 	font-size: 14px;
 	border: 1px solid;
 	color: #888;
 	border-radius: 25px;
 }
 
-@media(max-width:480px){
-	body {
-		width: auto;
-		background: white;
-	}
+.search {
+
+	text-align: left;
+	display:inline;
+	float:right;
+	font-size: 14px;
+	border: 1px solid;
+	color: white;
+	border-radius: 25px;
+	background: #00bfa5;
+}
+
+.addBtn {
+	background: #00bfa5;
+	color: white;
+	border-radius: 25px;
+	font-size: 14px;
+	border: 1px solid;
+}
+
+.resetBtns {
+	font-size: 14px;
+	border: 1px solid;
+	color: white;
+	border-radius: 25px;
+	background: #00bfa5;
+
+}
+
+.rightCol {
+	text-align: center;
+
 }
