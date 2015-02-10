@@ -1,0 +1,44 @@
+.head {
+	text-align: center;
+	background-image: linear-gradient(to top, #deb887,#5f9ea0);
+	height: 100px;
+	width: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: #f8f8ff;
+	text-shadow: 2px 2px 1px white;
+	font-size: 20px ;
+
+}
+
+body {
+
+	background-image: radial-gradient(circle at top right,#ff7f50 ,#6495ed );
+}
+
+.heading {
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: left;
+	color: black;
+	border-width: thin;
+	border-bottom: 2px solid black;
+	padding-bottom: 3px;
+}
+
+.textBox {
+	text-align: left;
+	position: relative;
+	width: 50%;
+	font-size: 14px;
+	border: 1px solid;
+	color: #888;
+	border-radius: 25px;
+}
+
+@media(max-width:480px){
+	body {
+		width: auto;
+		background: white;
+	}
+}
