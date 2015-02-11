@@ -16,80 +16,76 @@
 </head>
 
 <body>
+
 	<header class="head">
 		<h3> Add Campaign</h3>
 		<form>
 			<input type="text" value="Search Campaign..." class="search" >
-
 		</form>
 	</header>
 
-
 	<div class="section group">
-				
-				</div>
 
-				<div class="section group">
-					<div class="col span_1_of_2">
-						<p> All Campaigns: 
-						<input type="button" value="Preview" class="resetBtns">
-						<input type="button" value="Edit" class="resetBtns">
-						<input type="button" value="Delete" class="resetBtns">
-						</p>
-						<br>
-							<table style="width:100%">
-							  <tr>
-							    <th>Campaign Name</th>
-							    <th>Count</th>		
-							    <th>Left</th>
-							  </tr>
-							</table>		  
-					</div>
+		<!-- Column 1 / Left -->
+		<div class="col span_1_of_2">
 
-					<div class="col span_1_of_2 rightCol">
-						<p class="bl">Campaign Information:</p> <br>
-						<form action="">
-							<input type="text" name="name" class="textBox" value="Campaign Name">
-							<br> <br>
-							<select>
-							  <option value="Category:Unknown">Category Unknown</option>
-							  <option value="op1">1</option>
-							  <option value="op2">2</option>
-							  <option value="op3">3</option>
-							</select>
-							<br><br>
+			<p> All Campaigns: </p> <br>
+			<table style="width:100%">
+				<tr>
+					<th>Campaign Name</th>
+					<th>Count</th>		
+					<th>Left</th>
+					<th><input type="button" class="resetBtns" id="preview"></th>
+					<th><input type="button" class="resetBtns" id="edit"></th>
+					<th><input type="button" class="resetBtns" id="delete"></th>
+				</tr>
+			</table>
 
-							<select>
-							  <option value="Age Group: All">Age Group: All</option>
-							  <option value="op1">1</option>
-							  <option value="op2">2</option>
-							  <option value="op3">3</option>
-							</select>
-							<br><br>
+		</div>
 
-							<select>
-							  <option value="Gender:Both">Gender:Both</option>
-							  <option value="op1">Male</option>
-							  <option value="op2">Female</option>
-							</select>
-							<br><br>
+		<!--Column 2 / Right -->
+		<div class="col span_1_of_2 rightCol">
 
-							<select>
-							  <option value="Contract:None">Contract:None</option>
-							  <option value="op1">1</option>
-							  <option value="op2">2</option>
-							</select>
-							<br><br><br><br>
+			<p class="bl">Campaign Information:</p> <br>
+			<form action="">
+				<input type="text" name="name" class="textBox" value="Campaign Name"> <br><br>
 
+				<select class="dropdown">
+					<option value="Category:Unknown">Category Unknown</option>
+					<option value="op1">1</option>
+					<option value="op2">2</option>
+					<option value="op3">3</option>
+				</select>
+				<br><br>
 
+				<select class="dropdown">
+					<option value="Age Group: All">Age Group: All</option>
+					<option value="op1">1</option>
+					<option value="op2">2</option>
+					<option value="op3">3</option>
+				</select>
+				<br><br>
 
-							<input type="button" value="Add Campaign" class="addBtn">
-						</form>
+				<select class="dropdown">
+					<option value="Gender:Both">Gender:Both</option>
+					<option value="op1">Male</option>
+					<option value="op2">Female</option>
+				</select>
+				<br><br>
 
-					</div>
-				</div>
+				<select class="dropdown">
+					<option value="Contract:None">Contract:None</option>
+					<option value="op1">1</option>
+					<option value="op2">2</option>
+				</select>
+				<br><br><br><br>
 
-	
+				<input type="button" value="Add Campaign" class="addBtn">
+			</form>
+
+		</div>
+
+	</div>
 
 <script type="text/javascript" src="js/form.js"></script>
 </body>
