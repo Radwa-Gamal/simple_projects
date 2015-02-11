@@ -8,12 +8,13 @@
 <head>
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<meta content="utf-8" http-equiv="encoding">
+	<meta name="viewport" content="width=device-width" />
   	<title>Campaign Page</title>
 	<link rel="stylesheet" href="css/form.css">
 	<link rel="stylesheet" href="css/col.css">
 	<link rel="stylesheet" href="css/html5reset.css">
-	<link rel="stylesheet" href="css/2cols.css">
 	<link rel="stylesheet" href="css/3cols.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -36,9 +37,9 @@
 					<th>Campaign Name</th>
 					<th>Count</th>		
 					<th>Left</th>
-					<th><input type="button" class="resetBtns" id="preview"></th>
-					<th><input type="button" class="resetBtns" id="edit"></th>
-					<th><input type="button" class="resetBtns" id="delete"></th>
+					<th><button type="preview" class="resetBtns"> <i class="fa fa-eye"></i> </button> </th>
+					<th><button type="edit" class="resetBtns"> <i class="fa fa-pencil-square-o"></i> </button> </th>
+					<th><button type="delete" class="resetBtns"> <i class="fa fa-trash-o"></i> </button> </th>
 				</tr>
 			</table>
 
@@ -52,7 +53,7 @@
 				<input type="text" name="name" class="textBox" value="Campaign Name"> <br><br>
 
 				<select class="dropdown">
-					<option value="Category:Unknown">Category Unknown</option>
+					<option value="Category:Unknown">Category: Unknown</option>
 					<option value="op1">1</option>
 					<option value="op2">2</option>
 					<option value="op3">3</option>
@@ -68,14 +69,14 @@
 				<br><br>
 
 				<select class="dropdown">
-					<option value="Gender:Both">Gender:Both</option>
+					<option value="Gender:Both">Gender: Both</option>
 					<option value="op1">Male</option>
 					<option value="op2">Female</option>
 				</select>
 				<br><br>
 
 				<select class="dropdown">
-					<option value="Contract:None">Contract:None</option>
+					<option value="Contract:None">Contract: None</option>
 					<option value="op1">1</option>
 					<option value="op2">2</option>
 				</select>
