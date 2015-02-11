@@ -91,6 +91,10 @@ table,th {
 	background:#80deff;
 }
 
-@media(max-width: 480px){
-	body{ background: yellow;}
+.resetBtns:hover .fa-eye:before, .resetBtns:hover .fa-pencil-square-o:before, .resetBtns:hover .fa-trash-o:before
+{color: white;}
+
+@media(max-width: 600px){
+
+	body{width: auto; background: black;}
 }
