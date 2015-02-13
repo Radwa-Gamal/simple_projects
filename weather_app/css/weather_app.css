@@ -121,6 +121,24 @@ td {
 	padding: 4px;	
 }
 
+@-moz-document url-prefix() {
+
+th {
+	text-align: center;
+	font-size: 11px;
+	color: #2980b9;
+	padding: 4px;
+}
+
+td {
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	padding: 4px;	
+}
+
+}
+
 .source {
 	position: fixed;
 	text-align: center;
@@ -133,5 +151,5 @@ td {
 	text-decoration: none;
 	color: #c0c0c0;
 	font-size: 0.8em;
-	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: Arial;
 }
