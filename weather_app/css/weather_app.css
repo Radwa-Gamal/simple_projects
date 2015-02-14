@@ -1,32 +1,18 @@
+
 body {
 	background:#539FA2;
 }
 
 .containerDiv {
-	display: block;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     width: 300px;
     height: 170px;
-    margin: auto;
+    margin: 200px auto;
 	background: white;
 	border-radius: 5px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 }
 
 .tempDiv {
-	display: block;
 	float: left;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 120px;
     width: 180px;
     height: 170px;
     margin: auto;
@@ -38,18 +24,12 @@ body {
 }
 
 .iconDiv {
-	display: block;
 	float: right;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 180px;
-    right: 0;
     width: 120px;
     height: 170px;
     margin: auto;
-	background-color: yellow;
-	border-radius: 5px 0 0 0;
+	background-color: white;
+	border-radius: 5px 5px 5px 0;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -62,7 +42,6 @@ body {
 	color: #f1c40f;
 	font-size: 5em;
 	padding: 15px 20px 15px 15px;
-    position: fixed;
     margin: auto;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -75,9 +54,8 @@ body {
 	text-transform: uppercase;
 	color: white;
 	font-size: 1em;
-	padding: 130px 10px 10px 20px;
+	padding: 20px 10px 10px 20px;
 	font-weight: bold;
-	position: fixed;
     margin: auto;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -87,25 +65,18 @@ body {
 .skyIcon {
 	text-align: right;
 	font-size: 5em;
-	padding: 11px 12px 20px 12px;
+	padding: 11px 12px 8px 12px;
 	margin: auto;
-	position: fixed;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
 .tempTable {
-	display:block;
 	float: right;
-	position: fixed;
 	width: 120px;
 	padding: 10px 10px 5px 10px;
 	background: #3498db;
-	top: 100px;
-    bottom: 0;
-    left: 180px;
-    right: 0;
     margin: auto;
     width: 120px;
     height: 70px;
@@ -115,14 +86,14 @@ body {
 	box-sizing: border-box;
 }
 
-th {
+.days {
 	text-align: center;
 	font-size: 11px;
 	color: #2980b9;
 	padding: 4px;
 }
 
-td {
+.degree {
 	text-align: center;
 	color: white;
 	font-size: 13px;
@@ -131,12 +102,11 @@ td {
 
 
 .source {
-	position: fixed;
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	text-align: center;
 	color: #c0c0c0;
 	font-size: 0.8em;
-	margin: 450px 540px;
+	padding: 10px;
 }
 
 .source a {
@@ -144,5 +114,4 @@ td {
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	color: #c0c0c0;
 	font-size: 0.8em;
-	font-family: Arial;
 }
