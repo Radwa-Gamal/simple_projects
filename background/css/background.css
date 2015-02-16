@@ -1,0 +1,46 @@
+
+body {
+	background: gray;
+} 
+
+.container {
+	margin: 200px auto;
+	width: 600px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+.blackDiv {
+	float: left;
+	width: 50%;
+	height: 200px;
+	background: black;
+	margin: auto;
+}
+
+.whiteDiv {
+	float: right;
+	width: 50%;
+	height: 200px;
+	background: white;
+	margin: auto;
+
+}
+
+@media (max-width: 320px) {
+	.container {
+		margin: auto 200px;
+		width: 200px;
+		height: 600px;
+	}
+
+	.blackDiv {
+		width: 100%;
+		height: 300px;
+	}
+
+	.whiteDiv {
+		width: 100%;
+		height: 300px;
+	}
+}
