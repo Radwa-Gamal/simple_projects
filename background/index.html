@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width" />
 
   	<title>Responsive Layout</title>
-  	
+
   	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/col.css">
 	<link rel="stylesheet" href="css/html5reset.css">
@@ -26,9 +26,31 @@
 		<div class="col span_2_of_2 page">
 
 			<div class="container">
-				<div class="blackDiv"></div>
+				<div class="blackDiv">hello</div>
 				<div class="whiteDiv"></div>
+			</div>
+			<p>width: 50%</p>
+			<div class="container" style="width: 50%;">
+				<div class="blackDiv">hello</div>
+				<div class="whiteDiv"></div>
+			</div>
 
+			<p>width: 100%  max-width: 600px</p>
+			<div class="container" style="width: 100%; max-width: 600px;">
+				<div class="blackDiv">hello</div>
+				<div class="whiteDiv"></div>
+			</div>
+
+				<p>width: 100% min-width: 300px</p>
+			<div class="container" style="width: 100%; min-width: 300px;">
+				<div class="blackDiv">hello</div>
+				<div class="whiteDiv"></div>
+			</div>
+
+			<p>width: 100% min-width: 200px max-width: 600px</p>
+			<div class="container" style="width: 100%; min-width: 200px; max-width: 600px;">
+				<div class="blackDiv">hello</div>
+				<div class="whiteDiv"></div>
 			</div>
 
 
@@ -36,6 +58,7 @@
 		</div>
 
 	</div>
+
 
 </body>
 </html>
