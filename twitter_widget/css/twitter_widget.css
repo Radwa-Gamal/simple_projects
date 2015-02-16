@@ -1,0 +1,117 @@
+body {
+  background: #343434 url(http://cameronbaney.com/codepen/twitter-widget/bg.jpg);
+  background-size: cover;
+  color: #4c4c4c;
+  font:300 1.1em/1.7em 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
+}
+
+.container {
+	margin: 200px auto;
+	width: 100%;
+	max-width: 450px;
+	min-width: 250px;
+	height: 250px;
+	border: 1px solid black;
+}
+
+.head {
+	background:#808080;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid black;
+}
+
+.picture {
+	background-image: url('../png/owl.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	width: 20%;
+	height: 75px;
+	margin: 5px;
+	border: 3px solid #18ffff;
+}
+.name {
+	float: left;
+	width: 70%;
+	font-size: 1.1em;
+	color: black;
+	font-weight: bold;
+	color: white;
+	margin: 7px;
+}
+.info {
+	float: left;
+	width: 40%;
+	font-size: 0.8em;
+	color: white;
+	margin: 7px;
+}
+
+.twitter-info {
+	width: 100%;
+	height: 75px;
+	background: white;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.stats {
+	float: left;
+	width: 33.1%;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 1em;
+	line-height: 1.3;
+	text-decoration: none;
+	color: #808080;
+}
+
+.stats strong {
+	display: block;
+	font-size: 1.3em;
+}
+
+
+.settings {
+	width: 100%;
+	height: 75px;
+	background: white;
+}
+
+.icon {
+	float: left;
+	display: block;
+	width: 25%;
+	color: #808080;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 18px;
+
+}
+
+/* Float ClearFix */
+
+.group:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+@media (max-width: 400px;) {
+	.container {
+		width: 50%;
+	}
+	.head {
+		width: 50%;
+	}
+	.twitter-info {
+		width: 50%;
+	}
+	.settings {
+		width: 50%;
+	}
+
+
+}
