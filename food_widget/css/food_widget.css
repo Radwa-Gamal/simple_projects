@@ -1,0 +1,156 @@
+
+body {
+	background: url(http://c.boylett.uk/images/wallpapers/002.jpg);
+}
+
+.container {
+	margin: 100px auto;
+	max-width: 650px;
+	min-width: 250px;
+	width: 100%;
+	height: 400px;
+}
+
+.head {
+	width: 100%;
+	height: 250;
+	margin: auto;
+	background-image: url(http://1.bp.blogspot.com/-Y8H-0DWygcI/Uulo6hMuUNI/AAAAAAAALYA/xRbwoLi0qGc/s1600/unsplash_52d5bbef8a613_1.JPG);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.download {
+	float: right;
+	background:#add8e6;
+	opacity: 0.7;
+	font-size: 3em;
+	color: white;
+	margin-top: 180px;
+	margin-right: 30px;
+	border-radius: 40px;
+}
+.download:hover {
+	background: #7fffd4;
+}
+
+.label {
+	float: left;
+	text-transform: uppercase;
+	background:#8856A8;
+	opacity: 0.7;
+	color: white;
+	width: 150px;
+	margin-top: 50px;
+	margin-left: -43px;
+	padding: 5px;
+}
+.label img {
+	float: left;
+	padding-right: 10px;
+}
+.macaron {
+	float: right;
+	padding: 5px;
+}
+
+.details {
+	float: left;
+	width: 25%;
+	height: 149px;
+	margin: auto;
+	background:#8856A8;
+}
+.icon {
+	font-size: 1.7em;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 15px;
+}
+.word {
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.recipe {
+	float: left;
+	width: 48%;
+	height: 149px;
+	margin: auto;
+	background:white;
+}
+
+.left-side {
+	float: left;
+	width: 30%;
+	margin-top: 40px;
+	margin-left: 10px;
+
+}
+.ingredients {
+	padding-bottom: 50px;
+
+}
+.consumers {
+	padding-bottom: 15px;
+}
+
+.right-side {
+	float: right;
+	width: 63%;
+	margin-top: 40px;
+	color: #c0c0c0;
+
+}
+.content {
+	text-align: justify;
+	padding-bottom: 50px;
+	font-size: 0.9em;
+}
+.rate {
+	float: left;
+	width: 27%;
+	height: 149px;
+	margin: auto;
+	background:white;
+	border-left: 1px solid #c0c0c0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.number {
+	text-align: center;
+	font-size: 1.7em;
+	color: black;
+	margin-top: 25px;
+}
+
+.rate-icon {
+	unicode-bidi: bidi-override;
+  	direction: rtl;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #00ced1;
+	font-size: 1.8em;
+}
+.rate .rate-icon span:hover:before,
+.rate .rate-icon span:hover ~ span:before  {
+   content: "\2605";
+   position: absolute;
+}
+.rate_num {
+	text-align: center;
+	color: #c0c0c0;
+	font-size: 0.8em;
+	margin-top: 15px;
+}
