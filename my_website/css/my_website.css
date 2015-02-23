@@ -218,8 +218,6 @@
 	display: inline-block;
 	width: 50%;
 	height: 100%;
-	padding-top: 30px;
-	margin: 0 20px 0 10px;
 }
 
 .row1,
@@ -227,15 +225,16 @@
 .row3 {
 	display: block;
 	width: 100%;
-	height: 30.3%;
+	height: 33.33%;
 	padding-bottom: 5px;
+	background: #E1E5D9;
 }
 .pic1,
 .pic2,
 .pic3 {
 	display: inline-block;
 	float: left;
-	width: 30.3%;
+	width: 33.33%;
 	height: 100%;
 	padding-right: 5px;
 }
