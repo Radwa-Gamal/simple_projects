@@ -32,9 +32,10 @@
 /* Header ///////////////////////////////////////////////////////////////////////////////*/
 
 .head-div {
-	width: 100%;
-	display: block;
-	background: white;
+	background-image: url('../pic/head2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	height: 100px;
 	padding: 20px;
 }
@@ -225,12 +226,12 @@
 
 /* Footer //////////////////////////////////////////*/
 
-/*.bk {
-	background-image: url('../pic/footer.jpg');
+.footer-background {
+	background-image: url('../pic/head2.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-}*/
+}
 
 .footer-logo,
 .footer-content {
