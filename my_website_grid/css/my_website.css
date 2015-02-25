@@ -1,10 +1,35 @@
-/* Universal Selector ////////////////////////////////////////*/
+/* Universal Selector //////////////////////////////////////////////////////////////////////*/
 * {
 	-moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-/* Header ////////////////////////////////////////*/
+/*Text ////////////////////////////////////////////////////*/
+.text h1 {
+	font-family: 'Lobster', cursive;
+	color: #643834;
+	text-align: center;
+	font-size: 2em;
+	border-bottom: 5px solid #DA0584;
+}
+.text p {
+	width: 100%;
+	text-align: center;
+	color: #572814;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.text .link {
+	text-align: center;
+}
+.text a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #00bfff;
+}
+
+/* Header ///////////////////////////////////////////////////////////////////////////////*/
 
 .head-div {
 	width: 100%;
@@ -60,7 +85,7 @@
 	border-bottom:5px solid #DA0584;
 }
 
-.shop {
+.cart {
 	float: right;
 }
 .sign {
@@ -70,16 +95,24 @@
 	text-transform: uppercase;
 }
 
-.cart {
+.cart-icon {
 	float: left;
 	font-size: 2.5em;
 }
-.cart a {
+.cart-icon a {
 	color:#E73597 ;
 	text-decoration: none;
 }
 
-/* Frame Div ///////////////////////////////*/
+/* Slider Div /////////////////////////////////////////////////////////////////////*/
+
+.slide-div {
+	height: 500px;
+	background-image: url('../pic/cake6.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 .frame-div {
 	background-image: url('../pic/wave.png');
@@ -90,18 +123,7 @@
 	background-size: 44px auto;
 }
 
-/* Background Div //////////////////////////*/
-
-.background-div {
-	width: 100%;
-	height: 503px;
-	background-image: url('../pic/cake6.jpg');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.hello {
+.slide-div h1 {
 	font-family: 'PT Sans', sans-serif;
 	text-transform: uppercase;
 	font-size: 5em;
@@ -110,12 +132,12 @@
 	font-weight: bold;
 	padding-top: 60px;
 }
-.adress {
+.slide-div p {
 	color: #DA0585;
 	text-align: center;
 	font-size: 1.3em;
-	margin-top: 250px;
-	margin-bottom: 10px;
+	padding-top: 250px;
+	padding-bottom: 10px;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -130,8 +152,6 @@
 	color: #00bfff;
 }
 
-/* Down Frame Div ////////////////////////////*/
-
 .downFrame-div {
 	background-image: url('../pic/wave2.png');
 	background-repeat: repeat-x;
@@ -142,121 +162,36 @@
 	background-size: 44px auto;
 }
 
-/* The About Div /////////////////////////////*/
+/* The About Div ////////////////////////////////////////////////////////////////////*/
 
-.about-div {
-	width: 100%;
-	height: 300px;
-	background: white;
-}
-
-.profile-pic {
-	float: left;
-	width: 40%;
-	height: 100%;
-	margin: 0 10px 0 60px;
-	padding-top: 30px;
+.profile-pic,
+.about-content {
+	padding: 30px;
 	display: inline-block;
-}
-.circle {
-	width: 50%;
-	height: 90%;
-	border-radius: 50%;
-	background-image: url('../pic/about.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 .profile-pic img {
 	width: 50%;
 	height: 70%;
 }
-.about-content {
-	display: inline-block;
-	float: right;
-	width: 40%;
-	height: 100%;
-	padding-top: 30px;
-	margin: 0 20px 0 10px;
-}
-.title {
-	font-family: 'Lobster', cursive;
-	color: #643834;
-	text-align: center;
-	font-size: 2em;
-	border-bottom: 5px solid #DA0584;
-
-}
-.describtion {
-	width: 100%;
-	text-align: center;
-	color: #572814;
-	padding-top: 30px;
-	padding-bottom: 20px;
-}
-.more-link {
-	text-align: center;
-}
-.more-link a {
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: bold;
-	color: #00bfff;
-}
 
 /* The Gallery Div ///////////////////////////*/
 
-.gallery-div {
-	width: 100%;
-	height: 500px;
-	
-	
-}
 .gallery-content {
-	float: right;
 	display: inline-block;
-	width: 50%;
-	height: 100%;
-	padding-top: 30px;
-	background-image: url('../pic/cake5.jpg');
+	padding: 30px;
+	background-image: url('../pic/cake18.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .gallery-pic {
-	float: left;
 	display: inline-block;
-	width: 50%;
-	height: 100%;
+	padding-left: 10px;
 }
-
-.row1,
-.row2,
-.row3 {
-	display: block;
-	width: 100%;
-	height: 33.33%;
-	padding-bottom: 5px;
-	background: #E1E5D9;
-}
-.pic1,
-.pic2,
-.pic3 {
-	display: inline-block;
-	float: left;
-	width: 33.33%;
-	height: 100%;
-	border: 10px solid white;
-	padding-right: 5px;
-}
-.pic1 img,
-.pic2 img,
-.pic3 img {
+.gallery-div img{
 	width: 100%;
 	height: 100%;
 }
-
-/* Traingle Div ////////////////////////////////*/
 
 .traingle-div {
 	background-image: url('../pic/zigzag.png');
@@ -270,54 +205,41 @@
 /* The Media Div ///////////////////////////////////*/
 
 .media-div {
-	width: 100%;
-	height: 200px;
 	background:#b0e0e6;
 }
 .media-content {
-	float: right;
 	display: inline-block;
-	width: 40%;
-	height: 100%;
-	padding-top: 30px;
-	margin: 0 20px 0 10px;
+	padding: 30px;
 
 }
 .social-media {
-	float: left;
 	display: inline-block;
-	width: 50%;
-	height: 100%;
-	padding-top: 70px;
-	margin: 0 20px 0 10px;
 	text-align: center;
-	font-size: 5em;
 	color: white;
+	padding: 30px;
+	font-size: 5em;
 }
 .social-media i:hover {
 	color: #DA0584;
 }
 
 /* Footer //////////////////////////////////////////*/
-.footer-div {
-	width: 100%;
-	height: 100px;
-}
-.footer-logo {
-	display: inline-block;
-	float: left;
-	width: 50%;
-	height: 100%;
-}
+
+/*.bk {
+	background-image: url('../pic/footer.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}*/
+
+.footer-logo,
 .footer-content {
 	display: inline-block;
-	float: right;
-	width: 40%;
-	height: 100%;	
 }
+
 #copyright {
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	padding: 20px;
 	color: #643834;
 	font-size: 1.5em;
