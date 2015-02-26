@@ -1,46 +1,42 @@
 
-.order img {
-	width: 100%;
-	height: 100%;
-	padding-right: 10px;
-}
-
-.information {
-	padding: 20px;
-}
-.info-label {
-	background-image: url('../pic/cake1.jpg');
+.order-border-image {
+	display: block;
+	background-image: url('../pic/line2.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-}
-.info-label h1{
-	font-family: 'Lobster', cursive;
-	color: #7D7D7D;
-	font-style: italic;
-	font-size: 1.5em;
-	font-weight: bold;
-	padding-bottom: 5px;
 	text-align: center;
-	border-bottom: 1px solid #7D7D7D;
+	width: 20%;
+	margin: auto;
+	height: 30px;
 }
-.info-label button {
-	background: #EF7099;
+.information {
+	padding: 10px;
 }
-.info-label h2,
-.info-label button {
-	font-family: 'Muli', sans-serif;
-	color: #643834;
-	font-style: italic;
-	font-size: 1.3em;
-	font-weight: bolder;
-	padding-top: 10px;
-	padding-bottom: 10px;
+.information input {
+	background: #c0c0c0;
+	border: 1px solid #F4F4F4;
+	border-radius: 5px;
+	padding: 5px;
+	color: #DCDBE8;
 }
-.enter-text {
-	padding-top: 20px;
+.information select {
+	background: #c0c0c0;
+	border: 1px solid #F4F4F4;
+	border-radius: 5px;
+	padding: 5px;
+	color: #DCDBE8;
 }
-.enter-text form {
-	padding-top: 10px;
+.information button {
+	text-align: center;
+	background: #F5C7D2;
+	border: 1px solid #F4F4F4;
+	border-radius: 5px;
+	padding: 5px;
+	color: gray;
+}
+
+.information form {
 	line-height: 2.5;
+	padding-top: 10px;
 }
