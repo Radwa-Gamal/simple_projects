@@ -4,10 +4,14 @@
 	margin: 2% auto;
 	background: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/blog/monster.png') left center;
 	animation: play .8s steps(10) infinite;
+	-webkit-animation: play .8s steps(10) infinite;
 }
 
 
 
 @keyframes play {
+   100% { background-position: -1900px; }
+}
+@-webkit-keyframes play {
    100% { background-position: -1900px; }
 }
