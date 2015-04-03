@@ -1,0 +1,74 @@
+
+header {
+	background-image: url('../img/background.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 370px;
+}
+
+.msg {
+	float: left;
+	margin-top: 7%;
+	margin-left: 17%;
+	display: inline-block;
+}
+
+.boy-shadow {
+	float: left;
+	margin-top: 25%;
+	margin-left: 3%;
+	display: inline-block;
+}
+
+.boy {
+	position: absolute;
+	float: left;
+	margin-top: 9%;
+	margin-left: -15%;
+	display: inline-block;
+	z-index: 9;
+}
+
+.plane-shadow {
+	margin-top: 23%;
+	margin-left: -7%;
+}
+
+.plane {
+	float: left;
+	margin-top: 13%;
+	margin-left: -37%;
+	position: absolute;
+	z-index: 5;
+}
+
+.house {
+	float: left;
+	margin-top: 7%;
+	margin-left: -35%;
+	position: absolute;
+	display: inline-block;
+
+}
+
+.house2 {
+	float: left;
+	margin-top: 13%;
+	margin-left: -8%;
+	position: absolute;
+	display: inline-block;
+}
+
+.move-div:hover {
+	transform: translateX(50px);
+	/*browser specific versions*/
+	-moz-transition: all 2s ease-out;
+	-webkit-transition: all 2s ease-out;
+}
+
+.content {
+	background: #F1F1F1;
+	width: 100%;
+	height: 300px;
+}

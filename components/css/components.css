@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/**************************************
+General Selectors
+**************************************/
+header {
+	background: #ccc;
+	float: left;
+	width: 100%;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+}
+a {
+	text-decoration: none;
+}
+nav a {
+	color: white;
+	font-weight: 550;
+	padding: 15px 7px;
+}
+
+nav a:hover {
+	color: #6ab47b;
+}
+nav ul {
+	list-style-type: none;
+}
+
+
+nav {
+	text-align: center;
+	margin: 10px 0;
+
+}
+
+nav li {
+	display: inline-block;
+}
+/**************************************
+ID Selectors
+**************************************/
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+#logo h1 {
+	color: black;
+	margin: 15px 0;
+	line-height: 0.8em;
+	font-weight: normal;
+}
