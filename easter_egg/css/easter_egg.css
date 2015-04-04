@@ -9,7 +9,8 @@ html {
 	margin-left:0;
 	margin-top: 0;
 	background: #E5DCCC;
-	box-shadow: 2px -2px 15px 15px #E4DAC8;
+	box-shadow: 2px 2px 12px 10px #E4DAC8, inset 2px 2px 12px 10px #E4DAC8;
+
 }
 
 .egg {
@@ -29,10 +30,10 @@ Keyframes
 **************************************************/
 
 @-webkit-keyframes egg-move {
-	33% { -webkit-transform: rotate(3deg); }
-	66% { -webkit-transform: rotate(-3deg); }
+	33% { -webkit-transform: rotate(7deg); }
+	66% { -webkit-transform: rotate(-7deg); }
 }
 @keyframes egg-move {
-	33% { transform: rotate(3deg); }
-	66% { transform: rotate(-3deg); }
+	33% { transform: rotate(7deg); }
+	66% { transform: rotate(-7deg); }
 }
