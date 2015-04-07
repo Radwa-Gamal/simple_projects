@@ -1,0 +1,64 @@
+body {
+	background-image: url("../img/bg.jpg");
+	background-size: cover;	
+	
+}
+
+a {
+	text-decoration: none;
+	color: #C8C3AF;
+}
+
+.container {
+	background: #404040;
+	margin: 265px auto;
+	width: 50%;
+	height: 150px;
+	border-radius: 7px;
+	text-align: center;
+    left: 300px;
+}
+
+.icon {
+	font-size: 4em;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.shadow {
+	width: 11%;
+	height: 172px;
+	background: #C39449;
+	border-radius: 6px;
+	margin-top: -10px;
+	margin-left: -280px;
+	position: relative;
+	z-index: -1;
+	left: 300px;
+}
+
+.icon:hover {
+	color: #C39449;
+}
+
+.menu2:hover ~ .shadow{
+ 	transform: translateX(120px);
+	-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+
+}
+.menu3:hover ~ .shadow{
+ 	transform: translateX(250px);
+	-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+}
+.menu4:hover ~ .shadow{  
+   transform: translateX(370px);
+	-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+}
+.menu5:hover ~ .shadow{
+  transform: translateX(490px);
+	-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+}
