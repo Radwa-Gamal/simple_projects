@@ -16,7 +16,7 @@ ul {
 }
 
 /******************************************************
-CLASS SELECTORS
+CLASS SELECTORS : Left Side;
 ******************************************************/
 
 .head {
@@ -99,3 +99,159 @@ CLASS SELECTORS
 .copyright a:hover {
 	color: #808080;
 }
+
+/******************************************************
+CLASS SELECTORS : Right Side;
+******************************************************/
+
+.profile {
+	width: 100%;
+	height: 850px;
+	background: white;
+	border-radius: 8px;
+}
+
+.picture {
+	width: 100%;
+	height: 470px;
+}
+
+.profile-pic {
+	width: 20%;
+	height: 10%;
+	margin: 15px;
+	position: absolute;
+	z-index: 2;
+}
+
+.profile-pic img {
+	width: 15%;
+	height: 50%;
+	border-radius: 50%;
+	border: 1px solid white;
+	margin-left: 15px;
+	float: left;
+}
+.profile-pic h2 {
+	color: white;
+	font-size: 0.9em;
+	float: left;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 5px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.background-img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.blog {
+	background: white;
+	width: 100%;
+	height: 400px;
+}
+
+.blog h1 a {
+	color: black;
+}
+.blog h1 {
+	font-size: 2em;
+	font-weight: lighter;
+	line-height: 1.5;
+	padding: 30px 30px 20px 50px;
+}
+
+.blog p {
+	padding: 10px 30px 20px 50px;
+	line-height: 1.5;
+	font-weight: lighter;
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	color: #808080;
+}
+.div-btn {
+	padding: 10px 30px 20px 50px;
+}
+
+.btn {
+	background: none;
+	text-transform: uppercase;
+	border: 1px solid #c0c0c0;
+	padding: 7px;
+	font-weight: lighter;
+	font-size: 0.7em;
+	color: #c0c0c0;
+	margin-right: 6px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.blog-border {
+	width: 90%;
+	margin: 15px auto;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.stat {
+	padding: 10px 30px 20px 50px;
+}
+
+.stat a {
+	color: #c0c0c0;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: lighter;
+	padding-right: 10px;
+	line-height: 1.5;
+}
+
+.stat-left {
+	float: left;
+}
+
+.stat-right {
+	float: right;
+}
+
+.div-hover {
+	width: 100%;
+	height: 350px;
+	margin-top: 15%;
+}
+
+.left-box {
+	float: left;
+	width: 40%;
+	height: 100%;
+	border: 1px solid black;
+	margin-right: 10%;
+}
+
+.right-box {
+	float: right;
+	width: 40%;
+	height: 100%;
+	border: 1px solid black;
+	margin-left: 5%;
+}
+
+.left-box:hover {
+
+}
+
+.right-box:hover {
+	
+}
+
+
+
+
+
+
+
+
+
