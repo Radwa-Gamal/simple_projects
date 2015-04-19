@@ -104,22 +104,19 @@ CLASS SELECTORS : Left Side;
 CLASS SELECTORS : Right Side;
 ******************************************************/
 
-.profile {
-	width: 100%;
-	height: 850px;
-	background: white;
-	border-radius: 8px;
-}
-
 .picture {
 	width: 100%;
 	height: 470px;
 }
 
+.picture > img {
+	border-radius: 8px 8px 0 0;
+}
+
 .profile-pic {
 	width: 20%;
 	height: 10%;
-	margin: 15px;
+	margin: 30px 15px 15px 15px;
 	position: absolute;
 	z-index: 2;
 }
@@ -147,8 +144,13 @@ CLASS SELECTORS : Right Side;
 	width: 100%;
 	height: 100%;
 	position: relative;
+	border-radius: 8px;
 }
-
+iframe {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
 .blog {
 	background: white;
 	width: 100%;
@@ -224,24 +226,32 @@ CLASS SELECTORS : Right Side;
 	height: 350px;
 	margin-top: 15%;
 	margin-bottom: 15%;
+	position: relative;
 }
 
 .left-box {
 	float: left;
 	width: 40%;
 	height: 100%;
-	border: 1px solid black;
 	margin-right: 10%;
+	position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .left-box-hover {
-	float: right;
+	float: left;
 	width: 40%;
 	height: 100%;
-	border: 1px solid black;
-	margin-left: 5%;
+	margin-right: 10%;
 	background: rgba(0,0,0,0.4);
+	position: absolute;
+	border-radius: 8px;
+    top: 0;
+    left: 0;
+	z-index: 10;
 }
+
 .stat-hover {
 	width: 100%;
 	margin-top: 96%;
@@ -260,8 +270,23 @@ CLASS SELECTORS : Right Side;
 	float: right;
 	width: 40%;
 	height: 100%;
-	border: 1px solid black;
 	margin-left: 5%;
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.right-box-hover {
+	float: right;
+	width: 40%;
+	height: 100%;
+	margin-left: 5%;
+	background: rgba(0,0,0,0.4);
+	border-radius: 8px;
+	position: absolute;
+	top: 0;
+    right: 0;
+	z-index: 10;
 }
 
 .blog-pic {
@@ -290,7 +315,13 @@ CLASS SELECTORS : Right Side;
 }
 
 
+/******************************************************
+MEDIA QUEIRES
+******************************************************/
 
+@media screen and (min-width: 579px) {
+	
+}
 
 
 
