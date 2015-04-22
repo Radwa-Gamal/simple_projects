@@ -111,6 +111,7 @@ CLASS SELECTORS : Right Side;
 
 .picture > img {
 	border-radius: 8px 8px 0 0;
+	max-width: 100%;
 }
 
 .profile-pic {
@@ -235,8 +236,14 @@ iframe {
 	height: 100%;
 	margin-right: 10%;
 	position: relative;
+	white-space: nowrap;
 }
-
+.left-box img {
+	max-width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+}
 .left-box-hover {
 	float: left;
 	width: 100%;
@@ -245,6 +252,9 @@ iframe {
 	background: rgba(0,0,0,0.4);
 	position: absolute;
 	border-radius: 8px;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
     top: 0;
     left: 0;
 	z-index: 2;
@@ -273,6 +283,14 @@ iframe {
 	height: 100%;
 	margin-left: 5%;
 	position: relative;
+	white-space: nowrap;
+}
+
+.right-box img {
+	max-width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
 }
 
 .right-box-hover {
@@ -283,6 +301,9 @@ iframe {
 	background: rgba(0,0,0,0.4);
 	border-radius: 8px;
 	position: absolute;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
 	top: 0;
     right: 0;
 	z-index: 2;
@@ -291,7 +312,6 @@ iframe {
 .blog-pic {
 	width: 30%;
 	height: 10%;
-	/*padding: 15px 30px 0 40px;*/
 	margin: 30px 15px 15px 15px;
 }
 
@@ -319,7 +339,56 @@ iframe {
 MEDIA QUERIES
 ******************************************************/
 
-@media screen and (max-width: 963px) {
+@media screen and (max-width: 963px) and (min-width: 700px) {
+
+	
+	.sign-div,
+	.login-div {
+		width: 100%;
+		
+	}
+
+	.stat,
+	.stat-hover {
+		padding: 0 7px 0 7px;
+		font-size: 0.7em;
+		margin: 0;
+	}
+
+	.left-box,
+	.right-box {
+		width: 47%;
+		position: relative;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.div-hover {
+		margin-bottom: 400px;
+	}
+
+	.blog {
+		overflow: auto;
+	}
+	.profile-pic {
+		width: 100%;
+	}
+	.blog-pic {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.left-box-hover,
+	.right-box-hover {
+		width: 100%;
+		clear: both;
+		margin: 0;
+	}
+
+}
+
+@media screen and (max-width: 699px) {
 
 	.sign-div,
 	.login-div {
@@ -337,7 +406,7 @@ MEDIA QUERIES
 	.right-box {
 		width: 100%;
 		clear: both;
-		position: static;
+		position: relative;
 		margin-bottom: 10px;
 		margin-top: 10px;
 	}
@@ -358,21 +427,12 @@ MEDIA QUERIES
 		margin: 0;
 	}
 
-	.left-box-hover{
-		width: 100%;
-		clear: both;
-		margin-bottom: 10px;
-		margin-top: 10px;
-	}
-
+	.left-box-hover,
 	.right-box-hover {
 		width: 100%;
-		margin-bottom: 10px;
-		margin-top: 10px;
 		clear: both;
-		top: 310px;
-
 	}
+
 }
 
 

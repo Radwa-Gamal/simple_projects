@@ -11,7 +11,7 @@ label[for="bio"] {
 	font-size: 1.1em;
 	font-weight: lighter;
 	line-height: 1.5;
-	padding-left: 15px;
+	padding-left: 17px;
 }
 
 input[type="text"],
@@ -29,7 +29,7 @@ textarea {
   	background-color: #e8eeef;
   	color: #8a97a0;
   	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-  	width: 80%;
+  	width: 85%;
   	border-radius: 8px;
 }
 
