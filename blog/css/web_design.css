@@ -122,8 +122,8 @@ CLASS SELECTORS : Right Side;
 }
 
 .profile-pic img {
-	width: 15%;
-	height: 50%;
+	width: 40px;
+	height: 40px;
 	border-radius: 50%;
 	border: 1px solid white;
 	margin-left: 15px;
@@ -223,7 +223,7 @@ iframe {
 
 .div-hover {
 	width: 100%;
-	height: 350px;
+	height: 290px;
 	margin-top: 15%;
 	margin-bottom: 15%;
 	position: relative;
@@ -234,14 +234,12 @@ iframe {
 	width: 40%;
 	height: 100%;
 	margin-right: 10%;
-	position: absolute;
-    top: 0;
-    left: 0;
+	position: relative;
 }
 
 .left-box-hover {
 	float: left;
-	width: 40%;
+	width: 100%;
 	height: 100%;
 	margin-right: 10%;
 	background: rgba(0,0,0,0.4);
@@ -249,12 +247,14 @@ iframe {
 	border-radius: 8px;
     top: 0;
     left: 0;
-	z-index: 10;
+	z-index: 2;
 }
 
 .stat-hover {
 	width: 100%;
-	margin-top: 96%;
+	height: 15%;
+	position: absolute;
+	bottom: 0;
 }
 
 .stat-hover a {
@@ -266,19 +266,18 @@ iframe {
 	padding-left: 10px;
 	line-height: 1.5;
 }
+
 .right-box {
 	float: right;
 	width: 40%;
 	height: 100%;
 	margin-left: 5%;
-	position: absolute;
-    top: 0;
-    right: 0;
+	position: relative;
 }
 
 .right-box-hover {
 	float: right;
-	width: 40%;
+	width: 100%;
 	height: 100%;
 	margin-left: 5%;
 	background: rgba(0,0,0,0.4);
@@ -286,18 +285,19 @@ iframe {
 	position: absolute;
 	top: 0;
     right: 0;
-	z-index: 10;
+	z-index: 2;
 }
 
 .blog-pic {
 	width: 30%;
 	height: 10%;
-	padding: 15px 30px 0 40px;
+	/*padding: 15px 30px 0 40px;*/
+	margin: 30px 15px 15px 15px;
 }
 
 .blog-pic img {
-	width: 15%;
-	height: 60%;
+	width: 40px;
+	height: 40px;
 	border-radius: 50%;
 	border: 1px solid white;
 	margin-left: 15px;
@@ -308,7 +308,7 @@ iframe {
 	font-size: 0.9em;
 	float: left;
 	text-align: center;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-left: 5px;
 	text-transform: uppercase;
 	font-weight: lighter;
@@ -320,10 +320,17 @@ MEDIA QUERIES
 ******************************************************/
 
 @media screen and (max-width: 963px) {
+
+	.sign-div,
+	.login-div {
+		width: 100%;
+		
+	}
+
 	.stat,
 	.stat-hover {
-		padding: 0 0 2px 0;
-		margin: 0;
+		padding: 0 7px 0 7px;
+		font-size: 0.7em;
 	}
 
 	.left-box,
@@ -360,7 +367,10 @@ MEDIA QUERIES
 
 	.right-box-hover {
 		width: 100%;
-		top: 380px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		clear: both;
+		top: 310px;
 
 	}
 }
