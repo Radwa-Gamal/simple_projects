@@ -200,7 +200,7 @@ iframe {
 }
 
 .stat {
-	padding: 10px 30px 20px 50px;
+	padding: 10px 30px 0 50px;
 
 }
 
@@ -316,11 +316,53 @@ iframe {
 
 
 /******************************************************
-MEDIA QUEIRES
+MEDIA QUERIES
 ******************************************************/
 
-@media screen and (min-width: 579px) {
-	
+@media screen and (max-width: 963px) {
+	.stat,
+	.stat-hover {
+		padding: 0 0 2px 0;
+		margin: 0;
+	}
+
+	.left-box,
+	.right-box {
+		width: 100%;
+		clear: both;
+		position: static;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.div-hover {
+		margin-bottom: 400px;
+	}
+
+	.blog {
+		overflow: auto;
+	}
+	.profile-pic {
+		width: 100%;
+	}
+	.blog-pic {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.left-box-hover{
+		width: 100%;
+		clear: both;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.right-box-hover {
+		width: 100%;
+		top: 380px;
+
+	}
 }
 
 
