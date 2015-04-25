@@ -73,7 +73,7 @@ CLASS SELECTORS : Right Side;
 .signed > form {
 	float: left;
 }
-.signed > .div-btn {
+.signed > .tag-btns {
 	float: right;
 	margin-top: 0;
 

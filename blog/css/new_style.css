@@ -1,0 +1,60 @@
+
+.blog {
+	width: 100%;
+	height: 800px;
+}
+
+.blog-text {
+	background: white;
+	width: 100%;
+	height: 50%;
+	margin-top: 0;
+	margin-bottom: 0;
+	position: relative;
+
+}
+
+.blog-title h1{
+	font-size: 2em;
+	font-weight: lighter;
+	line-height: 1.5;
+	padding: 15px 30px 15px 50px;
+	margin: 0;
+}
+
+.blog-title a {
+	color: black;
+}
+
+.blog-body {
+	padding: 10px 30px 10px 50px;
+	line-height: 1.5;
+	font-weight: lighter;
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	color: #808080;
+}
+
+.tag-btns {
+	padding: 10px 30px 20px 50px;
+}
+
+.heart:hover {
+	color: red;
+}
+
+.msg {
+	width: 100%;
+	height: 50px;
+	background: #c0c0c0;
+	border-radius: 8px;
+	margin-bottom: 5px;
+}
+
+.msg p {
+	color: #800000;
+	font-size: 0.9em;
+	text-align: center;
+	padding: 20px;
+	text-transform: uppercase;
+}

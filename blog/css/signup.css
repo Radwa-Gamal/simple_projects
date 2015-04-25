@@ -40,7 +40,7 @@ CLASS SELECTORS : Right Side;
 ******************************************************/
 
 .sign-div {
-	width: 35%;
+	width: 30%;
 	height: 700px;
 	text-align: left;
 	margin: 40px auto;
@@ -55,7 +55,7 @@ CLASS SELECTORS : Right Side;
 	text-align: center;
 }
 
-.form > .div-btn {
+.form > .tag-btns {
 	margin-left: 0;
 	padding-left: 15px;
 }
