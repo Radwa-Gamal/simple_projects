@@ -40,10 +40,10 @@ CLASS SELECTORS : Right Side;
 ******************************************************/
 
 .sign-div {
-	width: 30%;
+	width: 35%;
 	height: 700px;
 	text-align: left;
-	margin: 40px auto;
+	margin: 0 auto;
 }
 
 .sign-div h1 {
